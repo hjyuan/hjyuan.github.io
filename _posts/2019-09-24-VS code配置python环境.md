@@ -16,6 +16,9 @@ tags:
 # 介绍
 >之前一直用pycharm进行python代码编写开发，小辣鸡要用到VS code进行python代码编写，VS code主要在于轻便，并且风格也比较好，在这里进行对VS code配置python环境的介绍。
 
+Visual Studio Code (简称 VS Code / VSC) 是一款免费开源的现代化轻量级代码编辑器，支持几乎所有主流的开发语言的语法高亮、智能代码补全、自定义快捷键、括号匹配和颜色区分、代码片段、代码对比 Diff、GIT命令 等特性，支持插件扩展，并针对网页开发和云端应用开发做了优化。软件跨平台支持 Win、Mac 以及 Linux，运行流畅，可谓是微软的良心之作......
+
+# 步骤
 1. 安装python
 
    直接官网(http://www.python.org/)下载python3.7版本进行默认安装即可，另外注意安装时勾选配置python环境。
@@ -66,3 +69,8 @@ tags:
 点击左边文件的图标，鼠标移动到工程的目录名，会出来一个+号的文件，点击，然后输入hello.py会生成.py文件，点击F5，调试窗口会运行结果，没有报错即成功。
 
 ![](/img/post-art-vscode9.jpg)
+
+
+# 参考
+1. https://blog.csdn.net/vinkim/article/details/81546333
+2. https://www.cnblogs.com/gitwow/p/10348675.html
