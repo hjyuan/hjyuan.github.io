@@ -1,17 +1,15 @@
 ---
 layout:     post
-title:      OPNET安装教程
-subtitle:   通信 3GPP架构
-date:       2019-02-26
+title:      VS code配置python环境
+subtitle:   VScode python
+date:       2019-09-24
 author:     Jie_Y
 header-img: img/post-bg-vscode.jpg
 catalog: true
 tags:
-    - 通信
-    - 3GPP
-    - 5G
-    - 组网技术
-    - 网络仿真
+    - VScode
+    - python
+    - 环境配置
 ---
 
 
