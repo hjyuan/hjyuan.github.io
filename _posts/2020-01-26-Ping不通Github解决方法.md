@@ -28,24 +28,24 @@ tags:
 
 可以用git来更改代理。
 
-`git config --global http.proxy 127.0.0.1:1080`
+`git config --global http.proxy 127.0.0.1:1080`  
 `git config --global https.proxy http://127.0.0.1:1080`
 
 一个是http协议，一个是https协议，端口设置为代理的端口。
 
-<!--但是这种方法只能在使用代理的情况下，一旦代理断开就无法访问-->
+​    但是这种方法只能在使用代理的情况下，一旦代理断开就无法访问
 
 ### 2、更改hosts
 
 找到C:\Windows\System32\drivers\etc(Linux系统在/etc/hosts)下的hosts文件，以管理员身份打开，在最后添加几行，就可以正常访问。
 
-`192.30.253.113    github.com `
-`192.30.252.131 github.com `
-`185.31.16.185 github.global.ssl.fastly.net `
-`74.125.237.1 dl-ssl.google.com `
-`173.194.127.200 groups.google.com `
-`192.30.252.131 github.com `
-`185.31.16.185 github.global.ssl.fastly.net `
-`74.125.128.95 ajax.googleapis.com`
+`192.30.253.113    github.com `  
+`192.30.252.131 github.com `  
+`185.31.16.185 github.global.ssl.fastly.net `  
+`74.125.237.1 dl-ssl.google.com `  
+`173.194.127.200 groups.google.com `  
+`192.30.252.131 github.com `  
+`185.31.16.185 github.global.ssl.fastly.net `  
+`74.125.128.95 ajax.googleapis.com`  
 
 然后就能够push和ping了。
