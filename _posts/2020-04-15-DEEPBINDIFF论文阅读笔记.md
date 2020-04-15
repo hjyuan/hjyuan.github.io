@@ -148,6 +148,8 @@ DeepWalk算法能够将顶点特征合并到网络表示学习过程中。DeepWa
 论文使用了三种二进制集——Coreutils，Diffutils和Findutils，总共有113个二进制文件。使用GCC
 v5.4将它们编译为4种不同的编译器优化级别(O0，O1，O2和O3)，以生成配备有不同优化技术的二进制文件。并从Github上收集了开源C++项目LSHBOX和indicators，包含大量的虚函数。
 
+实验数据集和代码已在Github上给出(<https://github.com/deepbindiff/DeepBinDiff>)。
+
 跨版本比较的精度和召回率：
 
 ![12](/img/deepbindiff-12.png)
