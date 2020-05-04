@@ -58,7 +58,7 @@ SQLi-labs环境配置相对来说也比较简单，从GitHub上下载源代码�
 
 然后打开PHPMyAdmin，默认账户root，密码为空，修改为自己设置的密码。
 
-![MyAdmin](./img/post-sqli-php.jpg)
+![MyAdmin](/img/post-sqli-php.jpg)
 
 打开sqli-labs-master文件夹中的sql-connections文件夹，找到db-creds.inc文件，此文件是连接数据库的账户和密码，找到user和pass、host，将其修改为上一步数据库设置的账户名和密码。
 
