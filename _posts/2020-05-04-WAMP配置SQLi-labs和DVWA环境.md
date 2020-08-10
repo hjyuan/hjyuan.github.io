@@ -24,19 +24,19 @@ WAMP是Windows系统下的一款集成环境，其包括了Apache、MySQL/MariaD
 WAMP官网([WAMP](https://www.wampserver.com/))
 
 WAMP安装比较简单，下载完软件后双击打开，语言只有English选项，安装完成后可以更改为中文。  
-![setup](/img/post-wamp-setup.gif)  
+![](https://i.loli.net/2020/08/10/g5VA41PMhXxjk3q.gif)  
 
 接受协议进行下一步
 
-![accept](/img/post-wamp-accept.gif)
+![](https://i.loli.net/2020/08/10/go1zALiSrZpmvB8.gif)
 
 然后选择安装文件夹，默认是C盘根目录创建WAMP64文件夹，自己可以选择其他地方
 
-![folder](/img/post-wamp-folder.gif)
+![](https://i.loli.net/2020/08/10/wLiTUGYFnvR8rlS.gif)
 
 完成安装后会让选择浏览器，默认是IE，自己可以切换为Chrome等。
 
-![browser](/img/post-wamp-browser.gif)
+![](https://i.loli.net/2020/08/10/KfHv3INO7Bk9AiG.gif)
 
 最后点击完成即安装完成。
 
@@ -46,27 +46,27 @@ WAMP安装比较简单，下载完软件后双击打开，语言只有English选
 
 SQLi-labs环境配置相对来说也比较简单，从GitHub上下载源代码，将其解压到WAMP目录下的www目录
 
-![sqli-labs](/img/post-sqli-labs.jpg)
+![](https://i.loli.net/2020/08/10/RSgQktsa9zMnuBH.jpg)
 
 在浏览器输入127.0.0.1，能够看到项目中已经存在SQLi-labs，但是此时还不能使用
 
-![projects](/img/post-sqli-local.jpg)
+![](https://i.loli.net/2020/08/10/pNZbTLPocRhVnsk.jpg)
 
 由于新版本WAMP默认采用的是PHP7.x版本，导致MySQL中有些函数不能使用，因此在配置环境时，需切换PHP到5.x版本。
 
-![version](/img/post-sqli-phpv.jpg)
+![](https://i.loli.net/2020/08/10/fCwqaz2g5P4m6Ye.jpg)
 
 然后打开PHPMyAdmin，默认账户root，密码为空，修改为自己设置的密码。
 
-![MyAdmin](/img/post-sqli-php.jpg)
+![](https://i.loli.net/2020/08/10/QtZKsjJ3ck2LXhy.jpg)
 
 打开sqli-labs-master文件夹中的sql-connections文件夹，找到db-creds.inc文件，此文件是连接数据库的账户和密码，找到user和pass、host，将其修改为上一步数据库设置的账户名和密码。
 
-![connection](/img/post-sqli-connection.jpg)
+![](https://i.loli.net/2020/08/10/olBfxYyJCPbAVDz.jpg)
 
 然后打开127.0.0.1/sqli-labs-matster，点击setup/reset Database for labs，出现下面页面即搭建成功。
 
-![success](/img/post-sqli-success.png)
+![](https://i.loli.net/2020/08/10/EXJOUAWPduxsMRr.png)
 
 > 注意，在配置时一定要注意将用户名和密码匹配对，并且PHP版本改为5.x版本，否则在进行setup/reset 步骤时会出现如下错误。
 
@@ -85,19 +85,19 @@ Uncaught Error: Call to undefined function mysql_connect()
 
 在DVWA官网点击github，找到最新的稳定版，将其下载后解压到www目录下，命名为DVWA。
 
-![local](/img/post-dvwa-local.jpg)
+![](https://i.loli.net/2020/08/10/uODEaxNJtPc2bvT.jpg)
 
 进入文件夹找到config文件夹中的config.inc.php.dist文件，将其命名为config.inc.php，打开文件将其中的db_user和db_password**修改**为配置WAMP数据库时的账户和密码
 
-![user](/img/post-dvwa-user.jpg)
+![](https://i.loli.net/2020/08/10/ogFpwrsPj18BGWR.jpg)
 
 访问127.0.0.1/DVWA，点击下方的Create/Reset Database按钮，就会创建成功
 
-![success](/img/post-dvwa-success.png)
+![](https://i.loli.net/2020/08/10/dxQq2pE81Vaez5w.png)
 
 然后点击login，会跳转到登陆界面，默认账户是admin，密码是password，成功登录。
 
 > 注意，config.inc.php中的账户和密码一定要和MySQL数据库的账户和密码匹配，否则会出现下面错误
 
-![problem](/img/post-dvwa-problem.png)
+![](https://i.loli.net/2020/08/10/PNfcuTsWntqpgko.png)
 

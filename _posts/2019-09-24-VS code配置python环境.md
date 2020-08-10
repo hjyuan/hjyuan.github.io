@@ -31,21 +31,21 @@ Visual Studio Code (简称 VS Code / VSC) 是一款免费开源的现代化轻�
 
    打开软件后，点击左边最下面图标，搜索python，选择列表第一个插件并点击install安装程序。
    
-   ![](/img/post-art-vscode1.jpg)
+![](https://i.loli.net/2020/08/10/lrONZVeqpIJ2az9.jpg)
 
 4. 选择python解释器
 
    打开命令面板(Ctrl+Shift+P)输入Python:select Interpreter然后选择一个解释器。
 
-   ![](/img/post-art-vscode2.jpg)
+![](https://i.loli.net/2020/08/10/KiARlP9vm2F6zUt.jpg)
 
 5. 打开工作目录
 
 点击左边的文件图标，再点击"open folder"按钮，选择一个文件夹作为工作目录，之后新建的文件都会存放在这个目录下。
 
-![](/img/post-art-vscode3.png)
+![](https://i.loli.net/2020/08/10/mf1GaNOetZJrFTc.png)  
 
-![](/img/post-art-vscode4.jpg)
+![](https://i.loli.net/2020/08/10/c2m46AD5Llr879I.jpg)
 
 6. 添加配置
 
@@ -55,20 +55,20 @@ Visual Studio Code (简称 VS Code / VSC) 是一款免费开源的现代化轻�
 
 选择python后会生成python的配置文件launch.json，加入python的安装目录：<"python.pythonPath":"C:/Users/***/AppData/Local/Programs/Python/Python37",>。
 
-![](/img/post-art-vscode6.jpg)
+![](https://i.loli.net/2020/08/10/dG3LnMhA58ouXjl.jpg)
 
 7. 添加用户配置
 
 点击File->Prefrences->Settings，生成一个"User Settings"文件，填入Python安装目录：<"python.pythonPath":"C:/Users/***/AppData/Local/Programs/Python/Python37",>，如下图所示
 
-![](/img/post-art-vscode7.jpg)   
-![](/img/post-art-vscode8.jpg)
+![](https://i.loli.net/2020/08/10/xVnHd5vRPgaCm4A.jpg)   
+![](https://i.loli.net/2020/08/10/te7y5nAU8YTQoRO.jpg)
 
 8. 新建hello.py
 
 点击左边文件的图标，鼠标移动到工程的目录名，会出来一个+号的文件，点击，然后输入hello.py会生成.py文件，点击F5，调试窗口会运行结果，没有报错即成功。
 
-![](/img/post-art-vscode9.jpg)
+![](https://i.loli.net/2020/08/10/ky8Dq5iRw9WlI7z.jpg)
 
 
 # 参考
